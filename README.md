@@ -16,7 +16,7 @@ The server is responsible for handling CRUD operations in MongoDB and generating
 - `/generate`: Used to generate PDFs using the data stored in MongoDB.
 
 Once generated, the PDF is stored in the server-side directory under the path:
-`Streamline Patient Onboarding for Family Practices\server\PDF`, where the PDF filename is the same as the `first_name` of the patient.
+`Streamline Patient Onboarding for Family Practices\server\PDF`, where the PDF filename is the same as the `last_name` of the patient.
 
 ### 2. Client Side
 
