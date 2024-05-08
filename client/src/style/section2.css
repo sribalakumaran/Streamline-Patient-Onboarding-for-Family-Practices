@@ -1,0 +1,81 @@
+.create-section {
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+.create-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.main-form {
+    width: 100%;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-group.form-inline {
+    display: flex;
+    align-items: center;
+}
+
+.form-group.form-inline label {
+    margin-right: 10px;
+}
+
+.form-group.mailing-address,
+.form-group.residence-address {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.form-group.mailing-address label,
+.form-group.residence-address label {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.form-group.mailing-address div,
+.form-group.residence-address div {
+    margin-bottom: 15px;
+}
+
+.form-group.mailing-address div label,
+.form-group.residence-address div label {
+    display: block;
+}
+
+.form-group.form-buttons button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.form-group.form-buttons button:hover {
+    background-color: darkblue;
+}

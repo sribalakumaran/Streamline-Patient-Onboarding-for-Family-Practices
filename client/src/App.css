@@ -1,0 +1,82 @@
+.navbar {
+    margin: 0;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(49, 49, 199);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+  }
+  .App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 25px;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  p {
+    max-width: 400px;
+    font-size: 12px;
+  }
+  .main-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-inline {
+    display: flex;
+    align-items: center;
+}
+
+.form-inline label {
+    margin-right: 10px;
+}
+
+.mailing-address,
+.residence-address {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.form-buttons button[type="submit"] {
+  background-color: blue;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto; /* Align button in the center */
+}
